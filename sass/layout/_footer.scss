@@ -3,16 +3,16 @@
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+
+  &.container {
+    padding-left: 215px;
+  }
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer.container {
-  padding-left: 215px;
 }
 
 .footer .logo {
@@ -63,6 +63,11 @@
   border-radius: 50%;
   cursor: pointer;
   transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--brand-color);
+  }
 }
 
 .inst {
@@ -76,11 +81,6 @@
 }
 .li {
   background-image: url(../images/linkedin-w.svg);
-}
-
-.footer-soc-icons:hover,
-.footer-soc-icons:focus {
-  background-color: var(--brand-color);
 }
 
 .footer-form {

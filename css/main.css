@@ -728,14 +728,14 @@ textarea {
   padding-bottom: 60px;
 }
 
+.footer.container {
+  padding-left: 215px;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer.container {
-  padding-left: 215px;
 }
 
 .footer .logo {
@@ -787,6 +787,10 @@ textarea {
   transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-soc-icons:hover, .footer-soc-icons:focus {
+  background-color: var(--brand-color);
+}
+
 .inst {
   background-image: url(../images//instagram-w.svg);
 }
@@ -801,11 +805,6 @@ textarea {
 
 .li {
   background-image: url(../images/linkedin-w.svg);
-}
-
-.footer-soc-icons:hover,
-.footer-soc-icons:focus {
-  background-color: var(--brand-color);
 }
 
 .footer-form {
