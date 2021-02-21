@@ -649,8 +649,7 @@ textarea {
   transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:focus, .social-list-link:hover {
   background-color: var(--brand-color);
 }
 
@@ -669,10 +668,6 @@ textarea {
   height: 20px;
   fill: #afb1b8;
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* .social-list__item:hover, 
