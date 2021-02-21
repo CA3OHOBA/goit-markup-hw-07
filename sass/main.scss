@@ -1,3 +1,9 @@
-@import "./utils/variables";
-@import "./base/normalize";
-@import "./components/page-header";
+@import "./utils/root";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/backdrop-form";
+@import "./layout/features";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/our-clients";
+@import "./layout/footer";
