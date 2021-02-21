@@ -179,7 +179,7 @@ textarea {
   background: var(--brand-color);
   border-radius: 2px;
   left: 0;
-  bottom: 0;
+  bottom: -3px;
 }
 
 /* MENU (STUDIO-PORTFOLIO-CONTACTS)*/
