@@ -6,7 +6,7 @@
         "../sass/utils/_root.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_hero.scss",
-        "../sass/layout/_backdrop-form.scss",
+        "../sass/components/_backdrop-form.scss",
         "../sass/layout/_features.scss",
         "../sass/layout/_what-we-do.scss",
         "../sass/layout/_our-team.scss",
