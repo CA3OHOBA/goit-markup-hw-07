@@ -24,30 +24,40 @@
 
 /* ICONS */
 
-.features-list-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--secondary-backround-color);
+.features-list-item {
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-backround-color);
+  }
 }
 
-.antenna::before {
-  background-image: url(../images/antenna.svg);
+.antenna {
+  &::before {
+    background-image: url(../images/antenna.svg);
+  }
 }
 
-.clock::before {
-  background-image: url(../images/clock.svg);
+.clock {
+  &::before {
+    background-image: url(../images/clock.svg);
+  }
 }
 
-.diagram::before {
-  background-image: url(../images/diagram.svg);
+.diagram {
+  &::before {
+    background-image: url(../images/diagram.svg);
+  }
 }
 
-.astronaut::before {
-  background-image: url(../images/astronaut.svg);
+.astronaut {
+  &::before {
+    background-image: url(../images/astronaut.svg);
+  }
 }
 
 .features-list-item .title {

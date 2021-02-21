@@ -96,8 +96,10 @@
   align-items: center;
 }
 
-.menu-list-item:not(:last-child) {
-  margin-right: 50px;
+.menu-list-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-contact-item .header-contact-link,
