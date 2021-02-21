@@ -170,7 +170,7 @@ textarea {
   position: relative;
 }
 
-.site-nav .link.current::after {
+.site-nav .link.current :after {
   content: "";
   position: absolute;
   width: 100%;

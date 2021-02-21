@@ -58,21 +58,35 @@
   transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.site-nav .link.current {
-  color: var(--brand-color);
-  position: relative;
+.site-nav {
+  .link.current {
+    color: var(--brand-color);
+    position: relative;
+    :after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      background: var(--brand-color);
+      border-radius: 2px;
+      left: 0;
+      bottom: -2px;
+    }
+  }
 }
 
-.site-nav .link.current::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background: var(--brand-color);
-  border-radius: 2px;
-  left: 0;
-  bottom: -2px;
-}
+// .site-nav {
+//   .link.current::after {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 4px;
+//     background: var(--brand-color);
+//     border-radius: 2px;
+//     left: 0;
+//     bottom: -2px;
+//   }
+// }
 
 /* MENU (STUDIO-PORTFOLIO-CONTACTS)*/
 /* UL.MENU-LIST */
