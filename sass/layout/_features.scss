@@ -16,9 +16,10 @@
 
 .features-list-item {
   width: 270px;
-}
-.features-list-item:last-child {
-  margin-right: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 /* ICONS */
