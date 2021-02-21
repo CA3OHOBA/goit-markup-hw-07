@@ -716,8 +716,7 @@ textarea {
   transition-property: all;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-icon:hover, .clients-icon:focus {
   fill: var(--brand-color);
   border: 1px solid var(--brand-color);
 }
